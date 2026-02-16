@@ -33,7 +33,7 @@ Every person (component) in between doesn't really need the document. They are j
 
 ```jsx
 function App() {
-  const user = { name: "Tejas" };
+  const user = { name: "Harsh" };
   return <Parent user={user} />;
 }
 
@@ -61,7 +61,7 @@ function UserProfile({ user }) {
 ### Step 1: App has data
 
 ```js
-user = { name: "Tejas" }
+user = { name: "Harsh" }
 ```
 
 ---
@@ -101,7 +101,7 @@ user = { name: "Tejas" }
 ### Step 6: UserProfile uses it
 
 ```jsx
-<h1>Hello, Tejas</h1>
+<h1>Hello, Harsh</h1>
 ```
 
 ---
@@ -202,7 +202,7 @@ import { createContext, useContext } from "react";
 const UserContext = createContext();
 
 function App() {
-  const user = { name: "Tejas" };
+  const user = { name: "Harsh" };
 
   return (
     <UserContext.Provider value={user}>

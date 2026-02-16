@@ -199,7 +199,7 @@ const AuthContext = createContext(null);
 
 ```jsx
 function AuthProvider({ children }) {
-    const user = { name: "Tejas" };
+    const user = { name: "Harsh" };
 
     return (
         <AuthContext.Provider value={user}>

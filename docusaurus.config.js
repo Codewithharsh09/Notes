@@ -67,7 +67,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/tejasnirala/notes',
+          //   'https://github.com/Codewithharsh09',
         },
         blog: {
           showReadingTime: true,
@@ -78,7 +78,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/tejasnirala/notes',
+            'https://github.com/Codewithharsh09',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -296,7 +296,7 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'right' },
 
           {
-            href: 'https://github.com/tejasnirala',
+            href: 'https://github.com/Codewithharsh09',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -329,7 +329,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/tejasnirala/notes',
+                href: 'https://github.com/Codewithharsh09',
               },
             ],
           },
