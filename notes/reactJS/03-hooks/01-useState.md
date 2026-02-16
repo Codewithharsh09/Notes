@@ -159,8 +159,8 @@ import { useState } from "react";
 
 function UserProfile() {
     const [user, setUser] = useState({
-        name: "Tejas",
-        age: 25
+        name: "Harsh",
+        age: 22
     });
 
     const updateAge = () => {
@@ -369,12 +369,12 @@ const handleClick = () => {
 ```jsx
 setForm(prev => ({
     ...prev,
-    firstName: "Tejas"
+    firstName: "Harshwardhan"
 }));
 
 setForm(prev => ({
     ...prev,
-    lastName: "Nirala"
+    lastName: "Singh"
 }));
 ```
 

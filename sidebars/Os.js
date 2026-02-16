@@ -32,7 +32,7 @@ const sidebars = {
             items: [
                 {
                     type: "category",
-                    label: "Basic Introduction",
+                    label: "Basics",
                     link: {
                         type: "doc",
                         id: "basic-intro/introduction",
@@ -46,9 +46,36 @@ const sidebars = {
                         },
                         {
                             type: "doc",
-                            label: "Process Diagram",
-                            id: "basic-intro/process_diagram"
+                            label: "Types of OS",
+                            id: "basic-intro/types_of_os"
+                        },
+                        {
+                            type: "doc",
+                            label: "Kernel in OS",
+                            id: "basic-intro/kernel_in_os"
+                        },
+                        {
+                            type: "doc",
+                            label: "System Call",
+                            id: "basic-intro/system_call"
+                        },
+                        {
+                            type: "doc",
+                            label: "System Initialization",
+                            id: "basic-intro/system_initialization"
                         }
+                    ],
+                },
+                {
+                    type: "category",
+                    label: "Interview Questions",
+                    link: {
+                        type: "doc",
+                        id: "Q&A/index",
+                    },
+                    collapsed: true,
+                    items: [
+
                     ],
                 },
             ],

@@ -303,7 +303,7 @@ useMemo(() => compute(value), [value]);
 Bad practice:
 
 ```jsx
-const name = useMemo(() => "Tejas", []);
+const name = useMemo(() => "Harsh", []);
 ```
 
 No need to memoize static values.

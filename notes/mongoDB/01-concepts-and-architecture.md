@@ -31,7 +31,7 @@ graph TD
     Sort --> Result[Final Result]
 ```
 
-<!-- ![MongoDB Aggregation Mental Model](/Users/tejasnirala/.gemini/antigravity/brain/52293487-01c9-43db-9d3e-505cb9ed1fb0/mongodb_aggregation_mental_model_1770396979228.png) -->
+
 
 > **Key Insight**: Aggregation is **streaming** — MongoDB does not "look ahead" or "remember intent". It processes what it sees in the current stage.
 

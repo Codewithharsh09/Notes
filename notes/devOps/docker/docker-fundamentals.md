@@ -1,5 +1,5 @@
 ---
-author: Tejas Nirala
+author: Harshwardhan Singh
 ---
 # Docker Fundamentals
 
