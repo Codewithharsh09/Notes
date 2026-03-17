@@ -51,6 +51,8 @@ Before diving into complex algorithms, we need to understand what makes an OS ti
 - [Kernel in OS](./basic-intro/03_kernel_in_os.md)
 - [System Call](./basic-intro/04_system_call.md)
 - [System Initialization](./basic-intro/05_system_initialization.md)
+- [User Mode and Kernel Mode](./basic-intro/06_userlevel_kernel_level.md)
+- [Fork System Call](./basic-intro/07_fork.md)
 
 ---
 

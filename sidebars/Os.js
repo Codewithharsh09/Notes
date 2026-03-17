@@ -63,7 +63,17 @@ const sidebars = {
                             type: "doc",
                             label: "System Initialization",
                             id: "basic-intro/system_initialization"
-                        }
+                        },
+                        {
+                            type: "doc",
+                            label: "User Mode and Kernel Mode",
+                            id: "basic-intro/userlevel_kernel_level"
+                        },
+                        {
+                            type: "doc",
+                            label: "Fork System Call",
+                            id: "basic-intro/fork"
+                        },
                     ],
                 },
                 {
