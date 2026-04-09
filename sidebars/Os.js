@@ -78,6 +78,22 @@ const sidebars = {
                 },
                 {
                     type: "category",
+                    label: "Process Scheduling",
+                    link: {
+                        type: "doc",
+                        id: "process_scheduling/process_intro",
+                    },
+                    collapsed: true,
+                    items: [
+                        {
+                            type: "doc",
+                            label: "Introduction",
+                            id: "process_scheduling/process_intro"
+                        }
+                    ],
+                },
+                {
+                    type: "category",
                     label: "Interview Questions",
                     link: {
                         type: "doc",

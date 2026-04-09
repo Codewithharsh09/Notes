@@ -46,13 +46,13 @@ flowchart TD
 > *Start here! Understanding the foundation.*
 Before diving into complex algorithms, we need to understand what makes an OS tick. What is a Kernel? How does your computer actually start up?
 
-- [Introduction](./basic-intro/01_introduction.md)
-- [Types of OS](./basic-intro/02_types_of_os.md)
-- [Kernel in OS](./basic-intro/03_kernel_in_os.md)
-- [System Call](./basic-intro/04_system_call.md)
-- [System Initialization](./basic-intro/05_system_initialization.md)
-- [User Mode and Kernel Mode](./basic-intro/06_userlevel_kernel_level.md)
-- [Fork System Call](./basic-intro/07_fork.md)
+- [Introduction](./01_basic-intro/01_introduction.md)
+- [Types of OS](./01_basic-intro/02_types_of_os.md)
+- [Kernel in OS](./01_basic-intro/03_kernel_in_os.md)
+- [System Call](./01_basic-intro/04_system_call.md)
+- [System Initialization](./01_basic-intro/05_system_initialization.md)
+- [User Mode and Kernel Mode](./01_basic-intro/06_userlevel_kernel_level.md)
+- [Fork System Call](./01_basic-intro/07_fork.md)
 
 ---
 
@@ -60,7 +60,7 @@ Before diving into complex algorithms, we need to understand what makes an OS ti
 > *"Who goes next?"*
 Imagine a single CPU core having to run a music player, a browser, and a game all at once. How does it decide who gets the CPU time? **Process Scheduling** is the art of multitasking.
 
-- [Process Introduction](./basic-intro/02_types_of_os.md)
+- [Process Introduction](./01_basic-intro/02_types_of_os.md)
 - Process Control Block
 - Process Table
 - Process Management Introduction
