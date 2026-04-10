@@ -89,6 +89,11 @@ const sidebars = {
                             type: "doc",
                             label: "Introduction",
                             id: "process_scheduling/process_intro"
+                        },
+                        {
+                            type: "doc",
+                            label: "Process Control Block",
+                            id: "process_scheduling/process_control_block"
                         }
                     ],
                 },
