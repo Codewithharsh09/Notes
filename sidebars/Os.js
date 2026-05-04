@@ -94,7 +94,93 @@ const sidebars = {
                             type: "doc",
                             label: "Process Control Block",
                             id: "process_scheduling/process_control_block"
-                        }
+                        },
+                        {
+                            type: "doc",
+                            label: "Process Table",
+                            id: "process_scheduling/process_table"
+                        },
+                        {
+                            type: "doc",
+                            label: "Process Management Intro",
+                            id: "process_scheduling/process_management_intro"
+                        },
+                        {
+                            type: "doc",
+                            label: "Process States",
+                            id: "process_scheduling/process_states"
+                        },
+                        {
+                            type: "doc",
+                            label: "Process Schedulers",
+                            id: "process_scheduling/process_schedulers"
+                        },
+                        {
+                            type: "category",
+                            label: "CPU Scheduling Algorithms",
+                            link: {
+                                type: "doc",
+                                id: "process_scheduling/cpu_scheduling_algorithms",
+                            },
+                            collapsed: true,
+                            items: [
+                                {
+                                    type: "doc",
+                                    label: "FCFS Scheduling",
+                                    id: "process_scheduling/fcfs"
+                                },
+                                {
+                                    type: "doc",
+                                    label: "SJF Scheduling",
+                                    id: "process_scheduling/sjf"
+                                },
+                                {
+                                    type: "doc",
+                                    label: "SRTF Scheduling",
+                                    id: "process_scheduling/srtf"
+                                },
+                                {
+                                    type: "doc",
+                                    label: "Round Robin Scheduling",
+                                    id: "process_scheduling/round_robin"
+                                },
+                                {
+                                    type: "doc",
+                                    label: "Priority Scheduling",
+                                    id: "process_scheduling/priority_scheduling"
+                                },
+                                {
+                                    type: "doc",
+                                    label: "HRRN Scheduling",
+                                    id: "process_scheduling/hrrn"
+                                },
+                                {
+                                    type: "doc",
+                                    label: "Multilevel Queue Scheduling",
+                                    id: "process_scheduling/multilevel_queue"
+                                },
+                                {
+                                    type: "doc",
+                                    label: "Multilevel Feedback Queue Scheduling",
+                                    id: "process_scheduling/multilevel_feedback_queue"
+                                },
+                            ]
+                        },
+                        {
+                            type: "doc",
+                            label: "Preemptive vs Non-Preemptive",
+                            id: "process_scheduling/preemptive_non_preemptive"
+                        },
+                        {
+                            type: "doc",
+                            label: "Dispatcher vs Scheduler",
+                            id: "process_scheduling/dispatcher_vs_scheduler"
+                        },
+                        {
+                            type: "doc",
+                            label: "Starvation and Aging",
+                            id: "process_scheduling/starvation_and_aging"
+                        },
                     ],
                 },
                 {
