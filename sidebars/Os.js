@@ -185,6 +185,22 @@ const sidebars = {
                 },
                 {
                     type: "category",
+                    label: "Process Synchronization",
+                    link: {
+                        type: "doc",
+                        id: "process_synchronization/ipc",
+                    },
+                    collapsed: true,
+                    items: [
+                        {
+                            type: "doc",
+                            label: "Inter Process Communication (IPC)",
+                            id: "process_synchronization/ipc"
+                        },
+                    ],
+                },
+                {
+                    type: "category",
                     label: "Interview Questions",
                     link: {
                         type: "doc",
