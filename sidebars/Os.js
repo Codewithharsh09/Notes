@@ -197,6 +197,11 @@ const sidebars = {
                             label: "Inter Process Communication (IPC)",
                             id: "process_synchronization/ipc"
                         },
+                        {
+                            type: "doc",
+                            label: "Process Synchronization Intro",
+                            id: "process_synchronization/process_synchronization"
+                        },
                     ],
                 },
                 {
