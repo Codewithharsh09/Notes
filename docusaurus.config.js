@@ -78,7 +78,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Codewithharsh09',
+            'https://github.com/Codewithharsh09/Notes',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -175,6 +175,15 @@ const config = {
       },
     ],
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'dsa',
+        path: 'notes/dsa',
+        routeBasePath: 'dsa',
+        sidebarPath: './sidebars/dsa.js',
+      },
+    ],
+    [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       ({
         hashed: true,
@@ -192,6 +201,7 @@ const config = {
           "/postgreSQL",
           "/systemDesign",
           "/reactJS",
+          "/dsa",
         ],
       }),
     ],
@@ -232,6 +242,13 @@ const config = {
             position: 'left',
             label: 'DevOps',
             docsPluginId: 'devOps',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'dsaSidebar',
+            position: 'left',
+            label: 'DSA',
+            docsPluginId: 'dsa',
           },
           {
             type: 'dropdown',
@@ -296,7 +313,7 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'right' },
 
           {
-            href: 'https://github.com/Codewithharsh09',
+            href: 'https://github.com/Codewithharsh09/Notes',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -329,7 +346,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Codewithharsh09',
+                href: 'https://github.com/Codewithharsh09/Notes',
               },
             ],
           },

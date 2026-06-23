@@ -41,6 +41,17 @@ const features = [
     ],
   },
   {
+    title: 'DSA',
+    description: 'Data Structures and Algorithms for interviews.',
+    link: '/dsa',
+    icon: '/img/DSA.svg',
+    tags: [
+      { name: 'DSA', color: 'blue' },
+      { name: 'Beginner', color: 'green' },
+      { name: 'Guide', color: 'gray' },
+    ],
+  },
+  {
     title: 'React',
     description: 'Modern frontend development with React.',
     link: '/reactJS',
