@@ -184,6 +184,15 @@ const config = {
       },
     ],
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'sql',
+        path: 'notes/sql',
+        routeBasePath: 'sql',
+        sidebarPath: './sidebars/sql.js',
+      },
+    ],
+    [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       ({
         hashed: true,
@@ -202,6 +211,7 @@ const config = {
           "/systemDesign",
           "/reactJS",
           "/dsa",
+          "/sql",
         ],
       }),
     ],
@@ -306,6 +316,12 @@ const config = {
                 sidebarId: "postgreSQLSidebar",
                 label: "PostgreSQL",
                 docsPluginId: 'postgreSQL',
+              },
+              {
+                type: "docSidebar",
+                sidebarId: "sqlSidebar",
+                label: "SQL",
+                docsPluginId: 'sql',
               },
             ],
           },

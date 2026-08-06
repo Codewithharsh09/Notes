@@ -117,6 +117,17 @@ const features = [
       { name: 'Reference', color: 'gray' },
     ],
   },
+  {
+    title: 'SQL',
+    description: 'Master SQL from fundamentals to interview-ready querying.',
+    link: '/sql',
+    icon: '/img/SQL.svg',
+    tags: [
+      { name: 'Database', color: 'green' },
+      { name: 'Beginner', color: 'green' },
+      { name: 'Interview Prep', color: 'purple' },
+    ],
+  },
 ];
 
 export default function Home() {
